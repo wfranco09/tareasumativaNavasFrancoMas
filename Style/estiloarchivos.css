@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f5f6fa;
+    color: #222;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #8b0404;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    flex-wrap: wrap;
+}
+
+header .logo {
+    width: 100px;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+section {
+    padding: 30px 60px;
+    text-align: left;
+}
+
+section h2 {
+    color: #003366;
+    border-bottom: 2px solid #003366;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+article {
+    margin-bottom: 40px;
+}
+
+article h3 {
+    color: #002244;
+}
+
+article img {
+    width: 50%;
+    max-width: 100px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+section article p {
+    font-size: 1rem;
+    color: #444;
+}
+
+.video-container {
+    margin: 20px 0;
+}
+
+.video-container iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 340px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 20px 40px;
+}
+
+footer ul {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+footer ul li {
+    font-size: 0.9rem;
+}
+
+footer ul li a {
+    color: #aaa;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer ul li a:hover {
+    color: #ffcc00;
+}
+
+footer p {
+    font-size: 0.85rem;
+    color: #ffffff;
+}
+
+.contacto {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contacto .integrante {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+.contacto img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+.contacto h3 {
+    color: #003366;
+    margin-top: 10px;
+}
