@@ -22,8 +22,9 @@ header {
 }
 
 header .logo {
-    width: 100px;
+    width: 220px;
     border-radius: 10px;
+    padding-top: 1%;
 }
 
 header h1 {
