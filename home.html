@@ -1,49 +1,244 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Noticias SA Nacional - Inicio</title>
-    <link rel="stylesheet" href="Style/estiloarchivos.css">
-</head>
+    <link rel="stylesheet" href="Style/estiloarchivos.css" />
+  </head>
 
-<body>
-
+  <body>
     <!-- ======= ENCABEZADO ======= -->
     <header>
-        <img src="img/logo.png" alt="Logo Noticias SA" class="logo">
+      <div class="top-nav__container">
+        <img src="img/logo.png" alt="Logo Noticias SA" class="logo" />
         <div class="titleSite">
-            <h1>Noticias SA Nacional</h1>
-            <p>Las noticias que mueven a Panamá y el mundo</p>
+          <h1>Noticias SA Nacional</h1>
+          <p>Las noticias que mueven a Panamá y el mundo</p>
         </div>
-        <nav>
-            <ul>
-                <li><a href="home.html">Inicio</a></li>
-                <li><a href="internacionales.html">Internacionales</a></li>
-                <li><a href="deportes.html">Deportes</a></li>
-                <li><a href="contactanos.html">Contáctanos</a></li>
-            </ul>
-        </nav>
+        <div class="spacer"></div>
+      </div>
+      <nav class="nav__container">
+        <ul class="nav-items__container">
+          <li><a href="home.html">Inicio</a></li>
+          <li><a href="internacionales.html">Internacionales</a></li>
+          <li><a href="deportes.html">Deportes</a></li>
+          <li><a href="contactanos.html">Contáctanos</a></li>
+        </ul>
+      </nav>
     </header>
 
-    <section>
-        <h2>Noticias Nacionales</h2>
-
-        <article>
-            <h3>Gobierno anuncia nuevo plan de transporte</h3>
-            <img src="Imagenes/Plandedesarrollo.jpg" alt="Plan de transporte">
-            <p>El Ministerio de Obras Públicas presentó un nuevo proyecto para mejorar la movilidad urbana en la ciudad de Panamá, con nuevas rutas y buses eléctricos.</p>
+    <section class="news-section__container">
+      <div class="news-items__container">
+        <article class="news__item">
+          <div class="news__image out-text">
+            <img
+              src="https://www.prensa.com/resizer/v2/CS42RT55HZCMPEYT2P7WHY2MJY.jpg?auth=d1727c318eea0a88bca378cdb0389698cade6021703a922a937180b98ea00f79&width=950&height=606"
+              alt=""
+            />
+          </div>
+          <div class="news_information">
+            <h2>
+              Panamá impulsa acción inmediata y acceso ágil a financiamiento ambiental en reunión
+              global sobre biodiversidad
+            </h2>
+            <div class="news__image in-text">
+              <img
+                src="https://www.prensa.com/resizer/v2/CS42RT55HZCMPEYT2P7WHY2MJY.jpg?auth=d1727c318eea0a88bca378cdb0389698cade6021703a922a937180b98ea00f79&width=950&height=606"
+                alt=""
+              />
+            </div>
+            <span>17 Sep 2025</span>
+            <p>
+              La 27.ª reunión del Órgano Subsidiario de Asesoramiento Científico, Técnico y
+              Tecnológico (SBSTTA 27) del Convenio sobre la Diversidad Biológica (CDB), que se
+              desarrolla en Panamá, tiene como objetivo fortalecer la base científica que orientará
+              las decisiones globales para frenar la pérdida de biodiversidad y enfrentar la crisis
+              climática. Durante el congreso, los representantes de los 196 países miembros del CDB
+              han revisado los avances científicos y técnicos en la aplicación del marco global de
+              la COP30, que busca revertir la pérdida de biodiversidad antes de 2030.
+              <br /><br />
+              Así lo señaló el subdirector de Investigación y Desarrollo de la Secretaría Nacional
+              de Ciencia, Tecnología e Innovación (Senacyt), Ediner Fuentes Campos, quien explicó
+              que en el encuentro se abordan temas clave como la relación entre biodiversidad y
+              agricultura, el control de especies invasoras, la evaluación ambiental de organismos
+              genéticamente modificados y las conexiones entre los convenios de biodiversidad,
+              desertificación y cambio climático.
+            </p>
+            <button class="news__button">
+              <a
+                href="https://www.prensa.com/sociedad/panama-impulsa-accion-inmediata-y-acceso-agil-a-financiamiento-ambiental-en-reunion-global-sobre-biodiversidad"
+                ><span>Ver Mas</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </button>
+          </div>
         </article>
-
-
+        <article class="news__item vertical">
+          <div class="news_information vertical">
+            <h2>🕊️ El último adiós al “Japa”: Panamá se viste de blanco</h2>
+          </div>
+          <div class="news__image vertical">
+            <img
+              src="https://www.critica.com.pa/sites/default/files/styles/slider_notas/public/imagenes/2025/10/24/japa.jpg.webp?itok=WQv_58pJ"
+              alt=""
+            />
+          </div>
+        </article>
+        <article class="news__item vertical">
+          <div class="news_information vertical">
+            <h2>Se gradúan más médicos de los que el sistema puede recibir</h2>
+          </div>
+          <div class="news__image vertical">
+            <img
+              src="https://www.prensa.com/resizer/v2/NVR5WWGDVRDNDLHK4AOZBNMJDY.jpg?auth=7ca8fc3cda789949a620017fbdaf4af0d0345176fd3aac72e8362161b5952503&width=950&height=633"
+              alt=""
+            />
+          </div>
+        </article>
+        <article class="news__item vertical">
+          <div class="news_information vertical">
+            <h2>Desfiles patrios 2025: estas son las rutas y medidas para el 3 y 4 de noviembre</h2>
+          </div>
+          <div class="news__image vertical">
+            <img
+              src="https://www.prensa.com/resizer/v2/VEXRWWE3JJEXNKJ2G3LF77YJ64.jpeg?auth=66917e450ef3ab4a1e12a3d8ede4867560b51d9e368c7ffaa09a230c06eb24c1&width=950&height=713"
+              alt=""
+            />
+          </div>
+        </article>
+        <article class="news__item">
+          <div class="news_information">
+            <h2>
+              Bus de Pandeportes se incendia en la autopista Panamá-Colón; todos los pasajeros
+              salieron ilesos
+            </h2>
+            <div class="news__image in-text">
+              <img
+                src="https://www.prensa.com/resizer/v2/I7X4JU6OXVDXDCGZ3M5QB44LZI.jpeg?auth=761407f505f2202d4139e93039d410e256192b16c5495da8ba815a573decea3c&width=950&height=713"
+                alt=""
+              />
+            </div>
+            <span>17 Sep 2025</span>
+            <p>
+              Un bus del Instituto Panameño de Deportes (Pandeportes) que transportaba a 27
+              personas, entre ellas 11 menores de edad, se incendió este sábado 25 de octubre en la
+              autopista Panamá-Colón, informó el Cuerpo de Bomberos de Panamá. De acuerdo con el
+              reporte de los Bomberos, el bus, tipo coaster, se incendió en su totalidad y los
+              ocupantes lograron salir a tiempo. El siniestro se registró cerca de las 10:30 a.m. en
+              el puente de El Giral, en el sector de Buena Vista, provincia de Colón.
+            </p>
+            <button class="news__button">
+              <a
+                href="https://www.prensa.com/judiciales/se-incendia-bus-de-pandeportes-en-colon-los-ocupantes-salen-ilesos/"
+                ><span>Ver Mas</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </button>
+          </div>
+          <div class="news__image out-text">
+            <img
+              src="https://www.prensa.com/resizer/v2/I7X4JU6OXVDXDCGZ3M5QB44LZI.jpeg?auth=761407f505f2202d4139e93039d410e256192b16c5495da8ba815a573decea3c&width=950&height=713"
+              alt=""
+            />
+          </div>
+        </article>
+        <article class="news__item">
+          <div class="news__image out-text">
+            <img
+              src="https://www.prensa.com/resizer/v2/7JT4OFP47BAHPBT535MOP37TT4.JPG?auth=d6529a501a28d12c1c08ad1d44a494b8dbc3a75757dd7dde287b52f7c173cf79&width=950&height=634"
+              alt=""
+            />
+          </div>
+          <div class="news_information">
+            <h2>
+              De microscopios a inteligencia artificial: UTP abre laboratorios de última generación
+            </h2>
+            <div class="news__image in-text">
+              <img
+                src="https://www.prensa.com/resizer/v2/7JT4OFP47BAHPBT535MOP37TT4.JPG?auth=d6529a501a28d12c1c08ad1d44a494b8dbc3a75757dd7dde287b52f7c173cf79&width=950&height=634"
+                alt=""
+              />
+            </div>
+            <span>17 Sep 2025</span>
+            <p>
+              La Universidad Tecnológica de Panamá (UTP) oficializó ayer 21 de octubre la apertura
+              del Laboratorio de Investigaciones en Biociencias, Biotecnología y Ciencias Aplicadas
+              y del Laboratorio de Ciberseguridad, ambos con financiamiento de la Secretaría
+              Nacional de Ciencia, Tecnología e Innovación (Senacyt) y respaldo administrativo del
+              Centro de Estudios Multidisciplinarios en Ciencias, Ingeniería y Tecnología (Cemcit
+              AIP).
+              <br /><br />
+              Por su parte, el nuevo Laboratorio de Ciberseguridad, situado en la Facultad de
+              Ingeniería de Sistemas Computacionales, permitirá formar profesionales capaces de
+              enfrentar los crecientes desafíos del ciberespacio. Diseñado como un “campo de
+              entrenamiento estratégico”, los estudiantes podrán simular ciberataques, analizar
+              vulnerabilidades, gestionar incidentes en tiempo real, realizar análisis forense
+              digital con herramientas de estándar internacional, practicar virtualización con
+              Proxmox y utilizar inteligencia artificial para la detección de amenazas.
+            </p>
+            <button class="news__button">
+              <a
+                href="https://www.prensa.com/sociedad/de-microscopios-a-inteligencia-artificial-utp-abre-laboratorios-de-ultima-generacion/"
+                ><span>Ver Mas</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </button>
+          </div>
+        </article>
+      </div>
     </section>
 
     <footer>
-
-        <p>© 2025 Noticias SA Nacional | Proyecto académico — Universidad Tecnológica de Panamá - Grupo 1GS123</p>
+      <ul>
+        <li><a href="home.html">Inicio</a></li>
+        <li><a href="internacionales.html">Internacionales</a></li>
+        <li><a href="deportes.html">Deportes</a></li>
+        <li><a href="contactanos.html">Contáctanos</a></li>
+      </ul>
+      <p style="width: 100%; text-align: center">
+        © 2025 Noticias SA Nacional | Proyecto académico — Universidad Tecnológica de Panamá - Grupo
+        1GS123
+      </p>
     </footer>
-
-</body>
-
+  </body>
 </html>
