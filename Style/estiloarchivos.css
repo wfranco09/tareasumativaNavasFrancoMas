@@ -250,6 +250,15 @@ header h1 {
   margin-top: 10px;
 }
 
+.header-live {
+  background-color: #b01010;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
 footer {
   background-color: #222;
   color: #ccc;
