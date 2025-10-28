@@ -169,7 +169,7 @@ header h1 {
 .news__button {
     all: unset;
     padding: 0.5rem 0.8rem;
-    width: 6rem;
+    width: 8.5rem;
     background-color: rgb(35, 35, 43);
     border-radius: 0.5rem;
     cursor: pointer;
@@ -258,6 +258,15 @@ header h1 {
   color: white;
   text-align: center;
   padding: 10px 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.header-music {
+  background-color: #004080;
+  color: white;
+  text-align: center;
+  padding: px 0;
   font-size: 1.2rem;
   font-weight: bold;
 }
