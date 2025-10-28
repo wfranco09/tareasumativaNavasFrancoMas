@@ -1,75 +1,85 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Deportes - Noticias SA</title>
-  <link rel="stylesheet" href="Style/estiloarchivos.css"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deportes - Noticias SA</title>
+    <link rel="stylesheet" href="Style/estiloarchivos.css">
 </head>
+
 <body>
 
-  <!--Banner superior con el logo -->
-  <header class="deportes-header">
-    <img src="Imagenes/logoBig.png" alt="Logo Noticias SA" class="logo-banner">
-  </header>
+    <!--Banner superior con el logo -->
+    <header>
+        <img src="Imagenes/logoStretch.png" alt="Logo Noticias SA" class="logo">
+        <div class="titleSite">
+            <h1>Noticias SA Nacional</h1>
+            <p>Las noticias que mueven a Panamá y el mundo</p>
+        </div>
+        <div class="spacer"></div>
+        </div>
+        <nav class="nav__container">
+            <ul class="nav-items__container">
+                <li><a href="home.html">Inicio</a></li>
+                <li><a href="internacionales.html">Internacionales</a></li>
+                <li><a href="deportes.html">Deportes</a></li>
+                <li><a href="contactanos.html">Contáctanos</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <!--Menú de navegación -->
-  <nav class="nav__container">
-    <ul class="nav-items__container">
-      <li><a href="home.html">Inicio</a></li>
-      <li><a href="politica.html">Política</a></li>
-      <li><a href="economia.html">Economía</a></li>
-      <li><a href="deportes.html">Deportes</a></li>
-    </ul>
-  </nav>
+    <!--Contenido principal-->
+    <main class="deportes-section">
+        <h2 class="news-section__title">Las mejores jugadas de la semana</h2>
 
-  <!--Contenido principal-->
-  <main class="deportes-section">
-    <h2 class="news-section__title">Las mejores jugadas de la semana</h2>
-
-    <section class="deportes-videos">
-      <!-- Fútbol -->
-      <article class="video-item">
-        <h3>⚽ Fútbol: Golazo de Mbappé para abrir el marcador en el Clásico de España</h3>
-        <video controls>
+        <section class="deportes-videos">
+            <!-- Fútbol -->
+            <article class="video-item">
+                <h3>⚽ Fútbol: Golazo de Mbappé para abrir el marcador en el Clásico de España</h3>
+                <video controls>
           <source src="Videos/Jugada1 ‐ Hecho con Clipchamp.mp4" type="video/mp4">
           Tu navegador no soporta el video.
         </video>
-        <p>El Real Madrid se llevó #ElClásico por 2-1 ante el FC Barcelona en el Estadio Santiago Bernabéu. Kylian Mbappé y Jude Bellingham marcaron para el conjunto blanco, mientras que Fermín López anotó el gol del Barça. Con este triunfo, el equipo de Xabi Alonso refuerza su liderato en LaLiga EA Sports.</p>
-      </article>
+                <p>El Real Madrid se llevó #ElClásico por 2-1 ante el FC Barcelona en el Estadio Santiago Bernabéu. Kylian Mbappé y Jude Bellingham marcaron para el conjunto blanco, mientras que Fermín López anotó el gol del Barça. Con este triunfo, el equipo
+                    de Xabi Alonso refuerza su liderato en LaLiga EA Sports.</p>
+            </article>
 
-      <!-- Baloncesto -->
-      <article class="video-item">
-        <h3>🏐 Volleyball: El Verona aplasta al Grottazzolina 3-0 en la Super Liga italina de Volleyball</h3>
-        <video controls>
+            <!-- Baloncesto -->
+            <article class="video-item">
+                <h3>🏐 Volleyball: El Verona aplasta al Grottazzolina 3-0 en la Super Liga italina de Volleyball</h3>
+                <video controls>
           <source src="Videos/jugada3 ‐ Hecho con Clipchamp.mp4" type="video/mp4">
           Tu navegador no soporta el video.
         </video>
-        <p>El Verona dominó de principio a fin al Grottazzolina, asegurando una victoria contundente 3-0 con un juego sólido en ataque y defensa.</p>
-      </article>
+                <p>El Verona dominó de principio a fin al Grottazzolina, asegurando una victoria contundente 3-0 con un juego sólido en ataque y defensa.</p>
+            </article>
 
-      <!-- Béisbol -->
-      <article class="video-item">
-        <h3>⚾ Béisbol: HOME RUN de Will Simth para contribuir en la victoria de los Angeles Dodgers 5-1 sobre Toronto Blue Jays</h3>
-        <video controls>
+            <!-- Béisbol -->
+            <article class="video-item">
+                <h3>⚾ Béisbol: HOME RUN de Will Simth para contribuir en la victoria de los Angeles Dodgers 5-1 sobre Toronto Blue Jays</h3>
+                <video controls>
           <source src="Videos/Jugada2 ‐ Hecho con Clipchamp.mp4" type="video/mp4">
           Tu navegador no soporta el video.
         </video>
-        <p>Los Dodgers lograron imponerse a los Blue Jays con una destacada actuación de su bullpen y un par de jonrones decisivos, asegurando una victoria clave en la temporada.</p>
-      </article>
-    </section>
-  </main>
+                <p>Los Dodgers lograron imponerse a los Blue Jays con una destacada actuación de su bullpen y un par de jonrones decisivos, asegurando una victoria clave en la temporada.</p>
+            </article>
+        </section>
+    </main>
 
-  <!--Footer-->
-  <footer class="deportes-footer">
-    <ul>
-      <li><a href="home.html">Inicio</a></li>
-      <li><a href="politica.html">Política</a></li>
-      <li><a href="economia.html">Economía</a></li>
-      <li><a href="deportes.html">Deportes</a></li>
-    </ul>
-    <p>© 2025 Noticias SA - Todos los derechos reservados</p>
-  </footer>
+    <footer>
+        <ul>
+            <li><a href="home.html">Inicio</a></li>
+            <li><a href="internacionales.html">Internacionales</a></li>
+            <li><a href="deportes.html">Deportes</a></li>
+            <li><a href="contactanos.html">Contáctanos</a></li>
+        </ul>
+        <p style="width: 100%; text-align: center">
+            © 2025 Noticias SA Nacional | Proyecto académico — Universidad Tecnológica de Panamá - Grupo 1GS123
+        </p>
+    </footer>
+    </footer>
 
 </body>
+
 </html>
